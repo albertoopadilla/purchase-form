@@ -71,7 +71,15 @@ form label[for=mastercard] {
 	background-image: url("../img/mastercard.gif");
 }
 
+button{
+	cursor:wait;
+}
 
+@media screen and (prefers-reduced-motion){
+	button{
+		cursor:crosshair;
+	}
+}
 
 
 /* This is the code you should have students write*/
